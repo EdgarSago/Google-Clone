@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    background-color: #202124;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header nav .icon-apps span {
+    display: inline-block;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+header nav .icon-apps span:hover {
+    background-color: #323338;
+}
+
+header nav .login {
+    background-color: #86b8fe;
+    color: #202124;
+    border-radius: 3px;
+    padding: 10px 25px;
+    margin-right: 18px;
+}
+
+header nav .login:hover {
+    background-color: #98c2fd;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+}
+
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-logo img {
+    width: 270px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 23px 350px;
+    margin-bottom: 30px;
+}
+
+main .main-input-container {
+    width: 575px;
+    border-radius: 100px;
+    border: 1.5px solid #454545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container:hover {
+    background-color: #454545;
+}
+
+main .main-input input {
+    background-color: transparent;
+    width: 450px;
+    height: 44px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+
+main .main-input-container span {
+    margin-top: 3px;
+    margin-left: 15px;
+    color: #9aa0a6;
+}
+
+.icon-search {
+    margin-right: 10px;
+}
+
+.icon-search2 {
+    margin-right: 20px;
+}
+
+main .main-button {
+    width: 530px;
+    margin: 0 380px;
+}
+
+main .main-button div {
+    display: inline-block;
+}
+
+main .main-button button {
+    height: 36px;
+    background-color: #323338c9;
+    border: 0;
+    font-size: 14px;
+    color: #f2f2f2;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+    border: 1px solid #333333;
+}
+
+main .main-button button:hover {
+    border: 1px solid #4d4d4d;
+}
+
+main .main-button p {
+    color: white;
+}
+
+main .main-button p a {
+    color: #8cbcff;
+    text-decoration: none;
+}
+
+main .main-button p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #131313b5;
+}
+
+footer .country {
+    
+    border-bottom: 1px solid #484b4e;
+}
+
+footer .country p {
+    margin-left: 30px;
+    color: #9aa0a6;
+    font-size: 15px;
+}
+
+footer .others {
+    display: flex;
+    justify-content: space-between;
+    width: 96.5%;
+    margin: auto;
+    padding: 5px 0;
+}
+
+footer .others a {
+    color: #9aa0a6;
+    text-decoration: none;
+    margin: 10px 13px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+footer .others a:hover {
+    text-decoration: underline;
+}
